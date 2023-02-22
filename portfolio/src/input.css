@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+    position: relative;
+    animation-name: slide;
+    animation-duration: 3s;
+    animation-delay: -1.6s;
+}
+
+@keyframes slide {
+    0% {left: 100vw;
+        position: relative;
+}
+    60%  {left: 100vw;}
+    100% {left: 0px;
+    display: flex;
+}
+}
